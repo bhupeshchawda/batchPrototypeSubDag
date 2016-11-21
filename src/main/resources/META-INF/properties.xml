@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>dt.application.BatchApp.operator.FileInput.prop.directory</name>
+    <value>/tmp/input</value>
+  </property>
+  <property>
+    <name>dt.application.BatchApp.operator.console.prop.stringFormat</name>
+    <value>Data: %s</value>
+  </property>
+  <property>
+    <name>dt.loggers.level</name>
+    <value>com.datatorrent.*:DEBUG,org.apache.*:DEBUG</value>
+  </property>
+</configuration>
+
